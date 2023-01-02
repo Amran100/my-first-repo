@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsesive web</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        
+
+        .header{
+            background-color: aquamarine;
+            color: black;
+            font-weight: bold;
+            padding: 1% 5%;
+            text-align: center;
+        }
+
+        .nav-menu{
+            padding: 1% 5%;
+            background-color: #39a4ac;
+        }
+
+        .nav-menu a{
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px;
+            display: block;
+        }
+
+        .main{
+            padding: 1% 5%;
+            background-color: turquoise;
+        }
+
+        .aside{
+            padding: 1% 5%;
+            background-color: #39a4ac;
+            text-align: center;
+        }
+
+        .footer{
+            background-color: black;
+            color: white;
+            padding:20px ;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+
+        /* For laptop: */
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+
+        [class*="col-"] {
+            float: left;
+            padding: 10px;
+        }
+
+        .row ::after{
+            content: '';
+            clear: both;
+            display: table;
+        }
+
+        @media screen and(max-width: 768px) {
+            /*for mobile phones:*/
+            [class*="col-"] {
+                width: 100%;
+            }
+        }
+
+        .nav-menu a {
+            text-align: center;
+            background-color: coral;
+            margin: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="header">
+        <h1>
+            Amran Hossen
+        </h1>
+    </div>
+
+    <div class="row">
+            <div class="nav-menu col-2">
+                <a href="#">Home</a>
+                <a href="#">Tutorial</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="main">
+                <h1>
+                    I am a web designer
+                </h1>
+               <p>
+                Ipsum rebum duo ipsum erat eos. Ea lorem diam labore elitr vero sit accusam. Vero et magna duo ut eos.
+               </p>
+
+               <p>
+                Des wahn kommt dem und ich ist, faßt an manche diesmal weiten es der. Diesmal und labyrinthisch das wieder lebens.
+               </p>
+
+               <p>
+                Genoux crispée ses majesté insensé dans parce force la qui, et nous et éclairé parfaite la et vraiment magnifique et,.
+               </p>
+               </div>
+
+               <div class="aside col-3">
+                <h2>What i love?</h2>
+                <P>
+                    Al iom unu kaj travivis mi sciis direktilo ili. Kun mi min favoron ni sklavon plej lingvo blovis, tiuj haveno.
+                </P>
+
+                <h2>
+                    What I do?
+                </h2>
+                <P>
+                    Sonder kleinem von still da und. Und verwundert nicht der mir's. Die gehn liebe o du schnee. Zu schnee es.
+                </P>
+
+                <h2>What don't love?</h2>
+                <p>
+                    Huye con de muerte y piel y quedo borrando. De se el manos de los. Diminutas heridas borrachos los aire.
+                </p>
+
+                <h2>
+                    What i don't do?
+                </h2>
+                <p>
+                    Sadipscing duo amet sed est magna sit elitr takimata eirmod aliquyam, ut eirmod dolore tempor et. Elitr invidunt voluptua elitr.
+                </p>
+
+               </div>
+
+
+
+    </div>
+
+    <div class="footer">
+        &copy; Amran hossen 100. Debloped by Amran Hossen
+    </div>
+    
+</body>
+</html>
+
+
